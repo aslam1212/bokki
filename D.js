@@ -1,10 +1,10 @@
 //╔═╦═══• •✠•❀•✠ • •════╗
 //║✧ུ║        「 INFO CREATOR」                     
 //║✧ུ║ུNama : *Daffa Yudhistira*
-//║✧ུ║ུNamaBot : *DEFFBOTZ*             
+//║✧ུ║ུNamaBot : *CALLANGBOTZ*             
 //║✧ུ║ུTQTO : *ALL CREATOR BOT*             
 //║✧ུ║ུTQTO : *PENYEDIA APIKEY DISINI*
-//║✧ུ║ུYT : 「 DEFFBOTZZ ツ 」
+//║✧ུ║ུYT : 「 CALLANGBOTZZ ツ 」
 //╚═╩═══• •✠•❀•✠ • •════╝
 //                    StayHalalNoBully
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
@@ -47,7 +47,7 @@ tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣",
 let control = JSON.parse(fs.readFileSync('./control.json'))
 owner = `${control.NomorOwner}`
 banChats = false;
-LolApi = "Deffbotz" //Ganti sama Api
+LolApi = "CALLANGBOTZ" //Ganti sama Api
 target = `${control.NomorOwner}@s.whatsapp.net`//Ganti jadi nomor lu
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
 let { getBuffer, getGroupAdmins, getRandom, runtime, sleep } = require('./lib/myfunc')
@@ -428,7 +428,7 @@ function randomNomor(min, max = null) {
                         "imageMessage": {
                             "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc",
                             "mimetype": "image/jpeg",
-                            "caption": `[DEFFBOTZ]`,
+                            "caption": `[CALLANGBOTZ]`,
                             "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=",
                             "fileLength": "28777",
                             "height": 1080,
@@ -1536,7 +1536,7 @@ addBalance(sender, randomNomor(80), balance)
 
 ////=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×
 let spam1 = `𝙹𝚊𝚗𝚐𝚊𝚗 𝚜𝚙𝚊𝚖 𝚢𝚊 𝚔𝚊𝚔\n𝙱𝚎𝚛𝚒𝚔𝚊𝚗 𝚓𝚎𝚍𝚊 3 𝚍𝚎𝚝𝚒𝚔/𝚙𝚎𝚛𝚒𝚗𝚝𝚊𝚑`
-let spam2 = 'Deffbotz🥰'
+let spam2 = 'CALLANGBOTZ🥰'
 let spam3 = [{
 buttonId: `${prefix}maap`,
 buttonText: {
@@ -1908,7 +1908,7 @@ if (!isUser) return sendButMessage(from, a, b, ton,{quoted : freply})
               } catch {
               profilePic = errorImg
 }
-              buffer = await getBuffer(`https://api.lolhuman.xyz/api/rank?apikey=Deffbotz&img=${profilePic}&background=https://i.ibb.co/8B6Q84n/LTqHsfYS.jpg&username=${pushname}&level=${userLevel}&ranking=${Number(userRank)}&currxp=${userXp}&xpneed=${requiredXp}`)
+              buffer = await getBuffer(`https://api.lolhuman.xyz/api/rank?apikey=CALLANGBOTZ&img=${profilePic}&background=https://i.ibb.co/8B6Q84n/LTqHsfYS.jpg&username=${pushname}&level=${userLevel}&ranking=${Number(userRank)}&currxp=${userXp}&xpneed=${requiredXp}`)
               teks = `*「 LEVEL 」*\n\n➸ *Nama :* ${pushname}\n➸ *Xp :* ${userXp} / ${requiredXp}\n➸ *Level :* ${userLevel}\n➸ *Role*: *${role}*\n\n*Note : Kumpulin Xp Jika Ingin Menaikkan Level*`
               buttons = [{ buttonId: `${prefix}claim`, buttonText: { displayText: 'CLAIM' }, type: 1 },{ buttonId: `${prefix}leaderboard`, buttonText: { displayText: 'LEADEBOARD' },type:1}]
               imageMsg = (await deff.prepareMessageMedia(buffer, "imageMessage", { thumbnail: buffer, })).imageMessage
@@ -2614,7 +2614,7 @@ case 'kues': case 'quest': case 'misi':
 ║╠ Untuk Membalas Ketik:
 ║╠ #suratto (No tujuan|Isi Surat)
 ║╠ Contoh: 
-║╠ #suratto 6285737134572|Hai Juga
+║╠ #suratto 6285340783774|Hai Juga
 ║╚▸
 ╚═══ ◤ *${NamaBot}* ◢ `
 				deff.sendMessage(`${noorg2}@s.whatsapp.net`,pping, image , {caption: mnik, quoted: { key: {fromMe:false, participant:`${noorg2}@s.whatsapp.net`},message: { conversation: `${kataorg2}`, contextInfo: {"mentionedJid": [sender]}}}});	
@@ -2622,7 +2622,7 @@ case 'kues': case 'quest': case 'misi':
 				break
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
 case 'sc': case 'script':
-reply('https://youtube.com/channel/UCSAcYW8MkFyaVQz9asa3q5Q') //Kalo punya otak jangan diubah ya adik²
+reply('https://youtube.com/channel/UCY5u0qN7DmOzYlRyX1an7DQ') //Kalo punya otak jangan diubah ya adik²
 break
 //=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×==×=×=×=×=×=×=×=×=×=×			
 			
@@ -2965,12 +2965,12 @@ vcard3 = 'BEGIN:VCARD\n' +
             `item1.X-ABLabel:👑 Creator\n` +
             `item2.EMAIL;type=INTERNET:daffayudhistira93@gmail.com\n` +
             `item2.X-ABLabel:📧 Email\n` +
-            `item3.URL:https://youtube.com/c/DEFFBOTZZ/\n` +
+            `item3.URL:https://youtube.com/c/CALLANGBOTZZ/\n` +
             `item3.X-ABLabel:⚙️ Channel Owner\n` +
             `item4.ADR:;;🇮🇩 Indonesia;;;;\n` +
             `item4.X-ABADR:ac\n` +
             `item4.X-ABLabel:🌍 Region\n` +
-            `item5.X-ABLabel:⚔️ DEFFBOTZ Owner\n` +
+            `item5.X-ABLabel:⚔️ CALLANGBOTZ Owner\n` +
             'END:VCARD'.trim()
 deff.sendMessage(from, {displayName: `DEFF`, vcard: vcard3}, contact,) 
      break       
@@ -3065,7 +3065,7 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
     footerText:`
 ┌─❖
 │*「 MAIN MENU 」*
-└┬❖ *「 DEFFBOTZZ 」*
+└┬❖ *「 CALLANGBOTZZ 」*
 ┌┤✑  *>request* <request ke owner>
 ││✑  *>requestdev* <request ke developer>
 ││✑  *>report* <lapor bug syg>
@@ -3078,7 +3078,7 @@ _🎲LIMIT: ${isOwner ? 'Unlimited' : isPremium ? 'Unlimited' : getLimit(sender,
 │✙ *${prefix}rules*
 └─────────────────┈ ⳹
 
-┏━━━━━「 DEFFBOTZ 」━━━━━━⭓ 
+┏━━━━━「 CALLANGBOTZ 」━━━━━━⭓ 
 ┃╔═══════════✪「 OWNER 」	        
 ┃╠${prefix}broadcast
 ┃╠${prefix}broadcast2
@@ -4342,9 +4342,9 @@ pada bot ini,KAMI TIDAK AKAN
 BERTANGGUNG JAWAB!
 TERIMAKASIH TELAH
 MENGGUNAKAN BOT KAMI
-Owner DEFFBOTZ:
+Owner CALLANGBOTZ:
 
-wa.me/6289501060783`
+wa.me/6285340783774`
 sendButMessage(from, anjeng, `Baca rulesnya!, Jangan di baca doang, Patuhi juga ajg❗`, [
 {
 buttonId: `${prefix} command`,
